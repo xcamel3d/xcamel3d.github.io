@@ -1,0 +1,246 @@
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="xcamel3d.github.io" resolutions="1x" timestamp="1736981190422">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="master_a-wzorcowa.css" crc="3871902642" ref="index:interior:foto:inne:exterior"/>
+    <file name="index.css" crc="243140580" ref="index"/>
+    <file name="interior.css" crc="3857201390" ref="interior"/>
+    <file name="foto.css" crc="3829629801" ref="foto"/>
+    <file name="inne.css" crc="454957772" ref="inne"/>
+    <file name="exterior.css" crc="524812781" ref="exterior"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:exterior:interior:inne:foto"/>
+    <file name="museutils.js" crc="3803043152" ref="index:exterior:interior:inne:foto"/>
+    <file name="whatinput.js" crc="86476730" ref="index:exterior:interior:inne:foto"/>
+    <file name="museconfig.js" crc="380897831" ref="index:exterior:interior:inne:foto"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index:exterior:interior:inne:foto"/>
+    <file name="require.js" crc="4157109226" ref="index:exterior:interior:inne:foto"/>
+  </folder>
+  <folder name="images">
+    <file name="blank.gif" crc="4208392903" ref="inne"/>
+    <file name="u164-4-a.png" crc="4116962176" ref="index"/>
+    <file name="u165-4-a.png" crc="4067274684" ref="index"/>
+    <file name="u160-4.png" crc="349840018" ref="index"/>
+    <file name="u1292-4.png" crc="4220428849" ref="index"/>
+    <file name="emp4-crop-u118.jpg" crc="150789646" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="test_interior223x140.png" crc="489312661" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="2-crop-u128.png" crc="4040116429" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="wiola1-crop-u150.png" crc="3816029929" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u138-4.png" crc="381924547" ref="index"/>
+    <file name="u141-4.png" crc="4080810284" ref="index"/>
+    <file name="u144-4.png" crc="4048920239" ref="index"/>
+    <file name="u147-4.png" crc="299471439" ref="index"/>
+    <file name="u104-4.png" crc="409993278" ref="index:exterior:interior:inne:foto"/>
+    <file name="u218-4.png" crc="4116962176" ref="exterior"/>
+    <file name="u219-4.png" crc="4067274684" ref="exterior"/>
+    <file name="u224-4.png" crc="3843180945" ref="exterior"/>
+    <file name="emp4.jpg" crc="357194567" seo="true" ref="exterior">
+      <caption webpage="exterior" alt=""/>
+    </file>
+    <file name="emp5.jpg" crc="503408787" seo="true" ref="exterior">
+      <caption webpage="exterior" alt=""/>
+    </file>
+    <file name="emp3.jpg" crc="3940762376" seo="true" ref="exterior">
+      <caption webpage="exterior" alt=""/>
+    </file>
+    <file name="m_t_1.jpg" crc="284143479" seo="true" ref="exterior">
+      <caption webpage="exterior" alt=""/>
+    </file>
+    <file name="m_t_2.jpg" crc="3858483577" seo="true" ref="exterior">
+      <caption webpage="exterior" alt=""/>
+    </file>
+    <file name="u315-4.png" crc="4116962176" ref="interior"/>
+    <file name="u316-4.png" crc="4067274684" ref="interior"/>
+    <file name="u305-4.png" crc="503377065" ref="interior"/>
+    <file name="interior_1_four.jpg" crc="136482898" seo="true" ref="interior">
+      <caption webpage="interior" alt=""/>
+    </file>
+    <file name="closeup_tiles-crop-u331.jpg" crc="111079466" seo="true" ref="interior">
+      <caption webpage="interior" alt=""/>
+    </file>
+    <file name="m34_dev_kuchnia-crop-u348.jpg" crc="290080532" seo="true" ref="interior">
+      <caption webpage="interior" alt=""/>
+    </file>
+    <file name="tyniecka_kucnia-crop-u365.jpg" crc="3812046147" seo="true" ref="interior">
+      <caption webpage="interior" alt=""/>
+    </file>
+    <file name="tyniecka_bedroom2-crop-u396.jpg" crc="4062277702" seo="true" ref="interior">
+      <caption webpage="interior" alt=""/>
+    </file>
+    <file name="brnenska_sypialnia-crop-u413.jpg" crc="3879934063" seo="true" ref="interior">
+      <caption webpage="interior" alt=""/>
+    </file>
+    <file name="test_interior-crop-u382.png" crc="3787983335" seo="true" ref="interior">
+      <caption webpage="interior" alt=""/>
+    </file>
+    <file name="u442-4.png" crc="4116962176" ref="inne"/>
+    <file name="u443-4.png" crc="4067274684" ref="inne"/>
+    <file name="u448-4.png" crc="399055621" ref="inne"/>
+    <file name="kojec_new.jpg" crc="290367628" seo="true" ref="inne">
+      <caption webpage="inne" alt=""/>
+    </file>
+    <file name="1-crop-u488.jpg" crc="3832854490" seo="true" ref="inne">
+      <caption webpage="inne" alt=""/>
+    </file>
+    <file name="szafka nocna.jpg" crc="4196921823" seo="true" ref="inne">
+      <caption webpage="inne" alt=""/>
+    </file>
+    <file name="2.png" crc="3975865109" seo="true" ref="inne">
+      <caption webpage="inne" alt=""/>
+    </file>
+    <file name="misiu.jpg" crc="128312333" seo="true" ref="inne">
+      <caption webpage="inne" alt=""/>
+    </file>
+    <file name="prism_trap.jpg" crc="453324240" seo="true" ref="inne">
+      <caption webpage="inne" alt=""/>
+    </file>
+    <file name="3-crop-u559.jpg" crc="4032050148" seo="true" ref="inne">
+      <caption webpage="inne" alt=""/>
+    </file>
+    <file name="pyram.jpg" crc="3918189874" seo="true" ref="inne">
+      <caption webpage="inne" alt=""/>
+    </file>
+    <file name="atomium.jpg" crc="4033513122" seo="true" ref="inne">
+      <caption webpage="inne" alt=""/>
+    </file>
+    <file name="b3-crop-u620.jpg" crc="4289647863" seo="true" ref="inne">
+      <caption webpage="inne" alt=""/>
+    </file>
+    <file name="b3nsfw-crop-u680.jpg" crc="155163226" seo="true" ref="inne">
+      <caption webpage="inne" alt=""/>
+    </file>
+    <file name="b2head-crop-u654.jpg" crc="227814426" seo="true" ref="inne">
+      <caption webpage="inne" alt=""/>
+    </file>
+    <file name="helios-crop-u593.jpg" crc="3918821058" seo="true" ref="inne">
+      <caption webpage="inne" alt=""/>
+    </file>
+    <file name="u781-4.png" crc="4242029702" ref="inne"/>
+    <file name="u835-4.png" crc="488101880" ref="inne"/>
+    <file name="u787-4.png" crc="3983766017" ref="inne"/>
+    <file name="u790-4.png" crc="264852661" ref="inne"/>
+    <file name="u832-10.png" crc="4207826653" ref="inne"/>
+    <file name="u829-10.png" crc="372376582" ref="inne"/>
+    <file name="stars-crop-u802.jpg" crc="287369932" seo="true" ref="inne">
+      <caption webpage="inne" alt=""/>
+    </file>
+    <file name="3dai_example2a-crop-u851.jpg" crc="4137785455" seo="true" ref="inne">
+      <caption webpage="inne" alt=""/>
+    </file>
+    <file name="3dai_example1b-crop-u888.jpg" crc="389487658" seo="true" ref="inne">
+      <caption webpage="inne" alt=""/>
+    </file>
+    <file name="3dai_example1-crop-u754.jpg" crc="3974910265" seo="true" ref="inne">
+      <caption webpage="inne" alt=""/>
+    </file>
+    <file name="u784-4.png" crc="3922639304" ref="inne"/>
+    <file name="u838-4.png" crc="4018903333" ref="inne"/>
+    <file name="u748-4.png" crc="108780187" ref="inne"/>
+    <file name="u751-4.png" crc="4161976009" ref="inne"/>
+    <file name="7c5b4edd-1de3-4ae4-a1de-a4bc276255b9-crop-u701.jpg" crc="155704899" seo="true" ref="inne">
+      <caption webpage="inne" alt=""/>
+    </file>
+    <file name="nsfw_b2-crop-u718.jpg" crc="4261619139" seo="true" ref="inne">
+      <caption webpage="inne" alt=""/>
+    </file>
+    <file name="b5c6e90d-893d-46f0-8a1b-dc10b7ecf7cb-crop-u731.jpg" crc="4243334471" seo="true" ref="inne">
+      <caption webpage="inne" alt=""/>
+    </file>
+    <file name="u917-4.png" crc="4116962176" ref="foto"/>
+    <file name="u918-4.png" crc="4067274684" ref="foto"/>
+    <file name="u923-4.png" crc="107184499" ref="foto"/>
+    <file name="u926-4.png" crc="482285408" ref="foto"/>
+    <file name="kasiamag_amusement-crop-u929.jpg" crc="517981441" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="karmen.jpg" crc="502444638" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="karmen_2.jpg" crc="3825730490" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="k_f_2-crop-u966.jpg" crc="4001629824" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="k_f_1-crop-u998.jpg" crc="84248183" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="k_f_4-crop-u1017.jpg" crc="160244356" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="a_s_1-crop-u1135.jpg" crc="479394738" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="a11of1-1.jpg" crc="3790395508" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="evaj.jpg" crc="264094134" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="14j9893.jpg" crc="363006524" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="wikibed.jpg" crc="4049146523" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="img-20170308-wa0042.jpg" crc="333606648" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="323989_3842974906099_1029573954_o.jpg" crc="105615559" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="wiola1.png" crc="197825687" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="297300_3992941415168_176463080_n-crop-u1152.jpg" crc="61051444" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="1026279_289596001186528_178524074_o_289596001186528.jpg" crc="4026452219" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="takietam.jpg" crc="4142822748" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="11312686_684094438403347_8505877688476173288_o_684094438403347.jpg" crc="3972502681" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="11041935_658531140959677_53102773296238813_o_658531140959677.jpg" crc="3771928173" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="11174445_669935243152600_2089383962586431367_o_669935243152600.jpg" crc="529195191" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="10994256_624475297698595_3118059171391406528_o_624475297698595.jpg" crc="3878009799" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="10662098_537812346364891_3462769292930688970_o_537812346364891.jpg" crc="409023888" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="464735_269327789880016_1545582446_o_269327789880016-crop-u1249.jpg" crc="320070155" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="980176_269390659873729_434954930_o_269390659873729.jpg" crc="4003886162" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="920364_252656021547193_1417542203_o_252656021547193.jpg" crc="291433008" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="img_2388.jpg" crc="416892181" seo="true" ref="foto">
+      <caption webpage="foto" alt=""/>
+    </file>
+    <file name="u1289-4.png" crc="4030942558" ref="foto"/>
+  </folder>
+  <file name="index.html" crc="401724501" seo="true" mt="1736981129304" redirect="true"/>
+  <file name="exterior.html" crc="3845647272" seo="true" mt="1736981137328" redirect="true"/>
+  <file name="interior.html" crc="181407672" seo="true" mt="1736981142852" redirect="true"/>
+  <file name="inne.html" crc="213669405" seo="true" mt="1736981147355" redirect="true"/>
+  <file name="foto.html" crc="493737296" seo="true" mt="1736981152934" redirect="true"/>
+</manifest>
