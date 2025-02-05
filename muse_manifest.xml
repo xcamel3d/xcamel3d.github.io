@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="xcamel3D.github.io" resolutions="1x" timestamp="1738788039421">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="xcamel3D.github.io" resolutions="1x" timestamp="1738789246876">
   <folder name="phone">
     <folder name="css">
       <file name="master_a-wzorcowa.css" crc="4164186726" ref="phone>index:phone>exterior:phone>foto:phone>interior:phone>inne"/>
@@ -19,7 +19,7 @@
     <file name="master_a-wzorcowa.css" crc="3871902642" ref="index:interior:foto:inne:exterior"/>
     <file name="index.css" crc="526568172" ref="index"/>
     <file name="interior.css" crc="452686366" ref="interior"/>
-    <file name="foto.css" crc="4290149993" ref="foto"/>
+    <file name="foto.css" crc="276491263" ref="foto"/>
     <file name="inne.css" crc="3895561368" ref="inne"/>
     <file name="exterior.css" crc="155843828" ref="exterior"/>
   </folder>
@@ -416,5 +416,5 @@
   <file name="exterior.html" crc="15648804" seo="true" mt="1738786990518" redirect="true"/>
   <file name="interior.html" crc="346585213" seo="true" mt="1738786995717" redirect="true"/>
   <file name="inne.html" crc="3902756059" seo="true" mt="1738787000538" redirect="true"/>
-  <file name="foto.html" crc="398639828" seo="true" mt="1738787015250" redirect="true"/>
+  <file name="foto.html" crc="4016896476" seo="true" mt="1738789232441" redirect="true"/>
 </manifest>
