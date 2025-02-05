@@ -7,41 +7,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   
   <script type="text/javascript">
-   // Update the 'nojs'/'js' class on the html node
+   // Redirect to phone/tablet as necessary
+(function(a,b,c){var d=function(){if(navigator.maxTouchPoints>1)return!0;if(window.matchMedia&&window.matchMedia("(-moz-touch-enabled)").matches)return!0;for(var a=["Webkit","Moz","O","ms","Khtml"],b=0,c=a.length;b<c;b++){var f=a[b]+"MaxTouchPoints";if(f in navigator&&navigator[f])return!0}try{return document.createEvent("TouchEvent"),!0}catch(d){}return!1}(),g=function(a){a+="=";for(var b=document.cookie.split(";"),c=0;c<b.length;c++){for(var f=b[c];f.charAt(0)==" ";)f=f.substring(1,f.length);if(f.indexOf(a)==
+0)return f.substring(a.length,f.length)}return null};if(g("inbrowserediting")!="true"){var f,g=g("devicelock");g=="phone"&&c?f=c:g=="tablet"&&b&&(f=b);if(g!=a&&!f)if(window.matchMedia)window.matchMedia("(max-device-width: 415px)").matches&&c?f=c:window.matchMedia("(max-device-width: 960px)").matches&&b&&d&&(f=b);else{var a=Math.min(screen.width,screen.height)/(window.devicePixelRatio||1),g=window.screen.systemXDPI||0,i=window.screen.systemYDPI||0,g=g>0&&i>0?Math.min(screen.width/g,screen.height/i):
+0;(a<=370||g!=0&&g<=3)&&c?f=c:a<=960&&b&&d&&(f=b)}if(f)document.location=f+(document.location.search||"")+(document.location.hash||""),document.write('<style type="text/css">body {visibility:hidden}</style>')}})("desktop","","phone/foto.html");
+
+// Update the 'nojs'/'js' class on the html node
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
 if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "foto.css"], "outOfDate":[]};
 </script>
   
+  <link media="only screen and (max-width: 370px)" rel="alternate" href="http://xcamel3D.github.io/phone/foto.html"/>
   <title>Foto</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_a-wzorcowa.css?crc=3871902642"/>
-  <link rel="stylesheet" type="text/css" href="css/foto.css?crc=3829629801" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/foto.css?crc=4290149993" id="pagesheet"/>
    </head>
  <body>
 
   <div class="clearfix borderbox" id="page"><!-- group -->
    <div class="clearfix grpelem" id="pu917-4"><!-- column -->
-    <a class="nonblock nontext colelem" id="u917-4" href="index.html"><!-- rasterized frame --><img id="u917-4_img" alt="xCAMEL3D" src="images/u917-4.png?crc=4116962176" data-image-width="381"/></a>
+    <a class="nonblock nontext colelem" id="u917-4" href="index.html"><!-- rasterized frame --><img id="u917-4_img" alt="XCAMEL3D" src="images/u917-4.png?crc=4116962176" data-image-width="381"/></a>
     <a class="nonblock nontext colelem" id="u918-4" href="index.html"><!-- rasterized frame --><img id="u918-4_img" alt="portfolio" src="images/u918-4.png?crc=4067274684" data-image-width="218"/></a>
     <img class="colelem" id="u923-4" alt="FOTOGRAFIA + OBRÓBKA ZDJĘĆ" src="images/u923-4.png?crc=107184499" data-image-width="660"/><!-- rasterized frame -->
     <img class="colelem" id="u926-4" alt="Słowem wstępu: zbiór prac z zakresu fotografii, włącznie z wywoływaniem w Capture One Pro i retuszem w Photoshopie." src="images/u926-4.png?crc=482285408" data-image-width="920"/><!-- rasterized frame -->
     <div class="shadow clip_frame colelem" id="u929"><!-- image -->
      <img class="block" id="u929_img" src="images/kasiamag_amusement-crop-u929.jpg?crc=517981441" alt="" data-heightwidthratio="0.6655808903365906" data-image-width="921" data-image-height="613"/>
     </div>
-    <div class="clearfix colelem" id="pu956"><!-- group -->
-     <div class="shadow clip_frame grpelem" id="u956"><!-- image -->
-      <img class="block" id="u956_img" src="images/karmen.jpg?crc=502444638" alt="" data-heightwidthratio="1.4891774891774892" data-image-width="462" data-image-height="688"/>
-     </div>
+    <div class="clearfix colelem" id="pu946"><!-- group -->
      <div class="shadow clip_frame grpelem" id="u946"><!-- image -->
-      <img class="block" id="u946_img" src="images/karmen_2.jpg?crc=3825730490" alt="" data-heightwidthratio="1.502183406113537" data-image-width="458" data-image-height="688"/>
+      <img class="block" id="u946_img" src="images/karmen_2-crop-u946.jpg?crc=23935295" alt="" data-heightwidthratio="1.4924731182795699" data-image-width="465" data-image-height="694"/>
+     </div>
+     <div class="shadow clip_frame grpelem" id="u956"><!-- image -->
+      <img class="block" id="u956_img" src="images/karmen-crop-u956.jpg?crc=4235104683" alt="" data-heightwidthratio="1.5054466230936818" data-image-width="459" data-image-height="691"/>
      </div>
     </div>
     <div class="clearfix colelem" id="pu966"><!-- group -->
      <div class="shadow clip_frame grpelem" id="u966"><!-- image -->
-      <img class="block" id="u966_img" src="images/k_f_2-crop-u966.jpg?crc=4001629824" alt="" data-heightwidthratio="0.6681127982646421" data-image-width="461" data-image-height="308"/>
+      <img class="block" id="u966_img" src="images/k_f_2-crop-u966.jpg?crc=368726118" alt="" data-heightwidthratio="0.6681127982646421" data-image-width="461" data-image-height="308"/>
      </div>
      <div class="shadow clip_frame grpelem" id="u998"><!-- image -->
       <img class="block" id="u998_img" src="images/k_f_1-crop-u998.jpg?crc=84248183" alt="" data-heightwidthratio="0.6695652173913044" data-image-width="460" data-image-height="308"/>
@@ -78,10 +84,10 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </div>
     </div>
     <div class="shadow clip_frame colelem" id="u1128"><!-- image -->
-     <img class="block" id="u1128_img" src="images/wiola1.png?crc=197825687" alt="" data-heightwidthratio="0.6673913043478261" data-image-width="920" data-image-height="614"/>
+     <img class="block" id="u1128_img" src="images/wiola1-crop-u1128.png?crc=454452087" alt="" data-heightwidthratio="0.6673913043478261" data-image-width="920" data-image-height="614"/>
     </div>
     <div class="shadow clip_frame colelem" id="u1152"><!-- image -->
-     <img class="block" id="u1152_img" src="images/297300_3992941415168_176463080_n-crop-u1152.jpg?crc=61051444" alt="" data-heightwidthratio="0.6663043478260869" data-image-width="920" data-image-height="613"/>
+     <img class="block" id="u1152_img" src="images/297300_3992941415168_176463080_n-crop-u1152.jpg?crc=4151213451" alt="" data-heightwidthratio="0.6663043478260869" data-image-width="920" data-image-height="613"/>
     </div>
     <div class="clearfix colelem" id="pu1179"><!-- group -->
      <div class="shadow clip_frame grpelem" id="u1179"><!-- image -->
@@ -98,38 +104,30 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <div class="shadow clip_frame grpelem" id="u1209"><!-- image -->
       <img class="block" id="u1209_img" src="images/11041935_658531140959677_53102773296238813_o_658531140959677.jpg?crc=3771928173" alt="" data-heightwidthratio="0.6673913043478261" data-image-width="920" data-image-height="614"/>
      </div>
-     <div class="clip_frame grpelem" id="u1219"><!-- image -->
+     <div class="shadow clip_frame grpelem" id="u1219"><!-- image -->
       <img class="block" id="u1219_img" src="images/11174445_669935243152600_2089383962586431367_o_669935243152600.jpg?crc=529195191" alt="" data-heightwidthratio="0.6663043478260869" data-image-width="920" data-image-height="613"/>
      </div>
     </div>
-    <div class="clearfix colelem" id="pu1229"><!-- group -->
-     <div class="clip_frame grpelem" id="u1229"><!-- image -->
-      <img class="block" id="u1229_img" src="images/10994256_624475297698595_3118059171391406528_o_624475297698595.jpg?crc=3878009799" alt="" data-heightwidthratio="0.6673913043478261" data-image-width="920" data-image-height="614"/>
-     </div>
-     <div class="clip_frame grpelem" id="u1239"><!-- image -->
-      <img class="block" id="u1239_img" src="images/10662098_537812346364891_3462769292930688970_o_537812346364891.jpg?crc=409023888" alt="" data-heightwidthratio="0.6652173913043479" data-image-width="920" data-image-height="612"/>
-     </div>
+    <div class="shadow clip_frame colelem" id="u1229"><!-- image -->
+     <img class="block" id="u1229_img" src="images/10994256_624475297698595_3118059171391406528_o_624475297698595.jpg?crc=3878009799" alt="" data-heightwidthratio="0.6673913043478261" data-image-width="920" data-image-height="614"/>
+    </div>
+    <div class="shadow clip_frame colelem" id="u1239"><!-- image -->
+     <img class="block" id="u1239_img" src="images/10662098_537812346364891_3462769292930688970_o_537812346364891.jpg?crc=409023888" alt="" data-heightwidthratio="0.6652173913043479" data-image-width="920" data-image-height="612"/>
     </div>
     <div class="clearfix colelem" id="pu1249"><!-- group -->
-     <div class="clip_frame grpelem" id="u1249"><!-- image -->
+     <div class="shadow clip_frame grpelem" id="u1249"><!-- image -->
       <img class="block" id="u1249_img" src="images/464735_269327789880016_1545582446_o_269327789880016-crop-u1249.jpg?crc=320070155" alt="" data-heightwidthratio="0.6888888888888889" data-image-width="630" data-image-height="434"/>
      </div>
-     <div class="clip_frame grpelem" id="u1259"><!-- image -->
+     <div class="shadow clip_frame grpelem" id="u1259"><!-- image -->
       <img class="block" id="u1259_img" src="images/980176_269390659873729_434954930_o_269390659873729.jpg?crc=4003886162" alt="" data-heightwidthratio="1.4965517241379311" data-image-width="290" data-image-height="434"/>
      </div>
     </div>
-    <div class="clip_frame colelem" id="u1267"><!-- image -->
+    <div class="shadow clip_frame colelem" id="u1267"><!-- image -->
      <img class="block" id="u1267_img" src="images/920364_252656021547193_1417542203_o_252656021547193.jpg?crc=291433008" alt="" data-heightwidthratio="0.6648531011969532" data-image-width="919" data-image-height="611"/>
     </div>
-    <div class="clearfix colelem" id="pu1279"><!-- group -->
-     <div class="clip_frame grpelem" id="u1279"><!-- image -->
-      <img class="block" id="u1279_img" src="images/img_2388.jpg?crc=416892181" alt="" data-heightwidthratio="0.6655808903365906" data-image-width="921" data-image-height="613"/>
-     </div>
-     <img class="grpelem" id="u1289-4" alt="You scrolled all the way down here? As it said in the resume - I know Indonesian :)" src="images/u1289-4.png?crc=4030942558" data-image-width="653"/><!-- rasterized frame -->
-    </div>
    </div>
-   <div class="verticalspacer" data-offset-top="11479" data-content-above-spacer="11478" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
-   <img class="grpelem" id="u104-4" alt="2025 Adam Iwaćkowski" src="images/u104-4.png?crc=409993278" data-image-width="186"/><!-- rasterized frame -->
+   <div class="verticalspacer" data-offset-top="10880" data-content-above-spacer="10880" data-content-below-spacer="62" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   <img class="grpelem" id="u104-4" alt="2025 xcamel3D" src="images/u104-4.png?crc=4151177148" data-image-width="186"/><!-- rasterized frame -->
   </div>
   <!-- Other scripts -->
   <script type="text/javascript">
